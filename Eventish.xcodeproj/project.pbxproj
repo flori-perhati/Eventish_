@@ -3,115 +3,109 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55E92AFD25FD606100EBDEF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E92AFC25FD606100EBDEF2 /* AppDelegate.swift */; };
-		55E92AFF25FD606100EBDEF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E92AFE25FD606100EBDEF2 /* SceneDelegate.swift */; };
-		55E92B0125FD606100EBDEF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E92B0025FD606100EBDEF2 /* ContentView.swift */; };
-		55E92B0325FD606300EBDEF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E92B0225FD606300EBDEF2 /* Assets.xcassets */; };
-		55E92B0625FD606300EBDEF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E92B0525FD606300EBDEF2 /* Preview Assets.xcassets */; };
-		55E92B0925FD606300EBDEF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E92B0725FD606300EBDEF2 /* LaunchScreen.storyboard */; };
-		581858B2C3077C4A6B2B6FF3 /* Pods_Eventish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC433CF79DF143EE480ED3A2 /* Pods_Eventish.framework */; };
+		5551120B25FE0AC00016B328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551120A25FE0AC00016B328 /* AppDelegate.swift */; };
+		5551120D25FE0AC00016B328 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551120C25FE0AC00016B328 /* SceneDelegate.swift */; };
+		5551120F25FE0AC00016B328 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5551120E25FE0AC00016B328 /* ViewController.swift */; };
+		5551121225FE0AC00016B328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5551121025FE0AC00016B328 /* Main.storyboard */; };
+		5551121425FE0AC20016B328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5551121325FE0AC20016B328 /* Assets.xcassets */; };
+		5551121725FE0AC20016B328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5551121525FE0AC20016B328 /* LaunchScreen.storyboard */; };
+		5551121F25FE0CA70016B328 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5551121E25FE0CA70016B328 /* GoogleService-Info.plist */; };
+		BB124B1DF4EF169E58CFB11A /* Pods_Eventish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A6732A6E6AD9B6B5815CB6 /* Pods_Eventish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B3B0417491B4F719438884C /* Pods-Eventish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventish.debug.xcconfig"; path = "Target Support Files/Pods-Eventish/Pods-Eventish.debug.xcconfig"; sourceTree = "<group>"; };
-		55E92AF925FD606100EBDEF2 /* Eventish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventish.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E92AFC25FD606100EBDEF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		55E92AFE25FD606100EBDEF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55E92B0025FD606100EBDEF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		55E92B0225FD606300EBDEF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		55E92B0525FD606300EBDEF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		55E92B0825FD606300EBDEF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		55E92B0A25FD606300EBDEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		793102E0D4C09823E358977A /* Pods-Eventish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventish.release.xcconfig"; path = "Target Support Files/Pods-Eventish/Pods-Eventish.release.xcconfig"; sourceTree = "<group>"; };
-		FC433CF79DF143EE480ED3A2 /* Pods_Eventish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eventish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8C26A655C7B175B1DC4D43 /* Pods-Eventish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventish.release.xcconfig"; path = "Target Support Files/Pods-Eventish/Pods-Eventish.release.xcconfig"; sourceTree = "<group>"; };
+		42E45FAA51E6CCDD8757EC89 /* Pods-Eventish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventish.debug.xcconfig"; path = "Target Support Files/Pods-Eventish/Pods-Eventish.debug.xcconfig"; sourceTree = "<group>"; };
+		5551120725FE0AC00016B328 /* Eventish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eventish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5551120A25FE0AC00016B328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5551120C25FE0AC00016B328 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5551120E25FE0AC00016B328 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5551121125FE0AC00016B328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5551121325FE0AC20016B328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5551121625FE0AC20016B328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5551121825FE0AC20016B328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5551121E25FE0CA70016B328 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3A6732A6E6AD9B6B5815CB6 /* Pods_Eventish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eventish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55E92AF625FD606100EBDEF2 /* Frameworks */ = {
+		5551120425FE0AC00016B328 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				581858B2C3077C4A6B2B6FF3 /* Pods_Eventish.framework in Frameworks */,
+				BB124B1DF4EF169E58CFB11A /* Pods_Eventish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55E92AF025FD606100EBDEF2 = {
+		4E317FC4F3DE28187C7BE447 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				55E92AFB25FD606100EBDEF2 /* Eventish */,
-				55E92AFA25FD606100EBDEF2 /* Products */,
-				C849ECA387EAD9FB5B8FAD31 /* Pods */,
-				5DF0D48D8C17F71C1728761A /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		55E92AFA25FD606100EBDEF2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				55E92AF925FD606100EBDEF2 /* Eventish.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		55E92AFB25FD606100EBDEF2 /* Eventish */ = {
-			isa = PBXGroup;
-			children = (
-				55E92AFC25FD606100EBDEF2 /* AppDelegate.swift */,
-				55E92AFE25FD606100EBDEF2 /* SceneDelegate.swift */,
-				55E92B0025FD606100EBDEF2 /* ContentView.swift */,
-				55E92B0225FD606300EBDEF2 /* Assets.xcassets */,
-				55E92B0725FD606300EBDEF2 /* LaunchScreen.storyboard */,
-				55E92B0A25FD606300EBDEF2 /* Info.plist */,
-				55E92B0425FD606300EBDEF2 /* Preview Content */,
-			);
-			path = Eventish;
-			sourceTree = "<group>";
-		};
-		55E92B0425FD606300EBDEF2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				55E92B0525FD606300EBDEF2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		5DF0D48D8C17F71C1728761A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FC433CF79DF143EE480ED3A2 /* Pods_Eventish.framework */,
+				C3A6732A6E6AD9B6B5815CB6 /* Pods_Eventish.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C849ECA387EAD9FB5B8FAD31 /* Pods */ = {
+		555111FE25FE0AC00016B328 = {
 			isa = PBXGroup;
 			children = (
-				0B3B0417491B4F719438884C /* Pods-Eventish.debug.xcconfig */,
-				793102E0D4C09823E358977A /* Pods-Eventish.release.xcconfig */,
+				5551120925FE0AC00016B328 /* Eventish */,
+				5551120825FE0AC00016B328 /* Products */,
+				F9F2E3CCDF6D094225A25EF2 /* Pods */,
+				4E317FC4F3DE28187C7BE447 /* Frameworks */,
 			);
-			name = Pods;
+			sourceTree = "<group>";
+		};
+		5551120825FE0AC00016B328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5551120725FE0AC00016B328 /* Eventish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5551120925FE0AC00016B328 /* Eventish */ = {
+			isa = PBXGroup;
+			children = (
+				5551121E25FE0CA70016B328 /* GoogleService-Info.plist */,
+				5551120A25FE0AC00016B328 /* AppDelegate.swift */,
+				5551120C25FE0AC00016B328 /* SceneDelegate.swift */,
+				5551120E25FE0AC00016B328 /* ViewController.swift */,
+				5551121025FE0AC00016B328 /* Main.storyboard */,
+				5551121325FE0AC20016B328 /* Assets.xcassets */,
+				5551121525FE0AC20016B328 /* LaunchScreen.storyboard */,
+				5551121825FE0AC20016B328 /* Info.plist */,
+			);
+			path = Eventish;
+			sourceTree = "<group>";
+		};
+		F9F2E3CCDF6D094225A25EF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42E45FAA51E6CCDD8757EC89 /* Pods-Eventish.debug.xcconfig */,
+				0A8C26A655C7B175B1DC4D43 /* Pods-Eventish.release.xcconfig */,
+			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55E92AF825FD606100EBDEF2 /* Eventish */ = {
+		5551120625FE0AC00016B328 /* Eventish */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55E92B0D25FD606300EBDEF2 /* Build configuration list for PBXNativeTarget "Eventish" */;
+			buildConfigurationList = 5551121B25FE0AC20016B328 /* Build configuration list for PBXNativeTarget "Eventish" */;
 			buildPhases = (
-				73E48A7435A374A4B790759E /* [CP] Check Pods Manifest.lock */,
-				55E92AF525FD606100EBDEF2 /* Sources */,
-				55E92AF625FD606100EBDEF2 /* Frameworks */,
-				55E92AF725FD606100EBDEF2 /* Resources */,
-				4B535A46FAB920BA9DD1C42E /* [CP] Embed Pods Frameworks */,
+				F85400D921D6C337CF401E6F /* [CP] Check Pods Manifest.lock */,
+				5551120325FE0AC00016B328 /* Sources */,
+				5551120425FE0AC00016B328 /* Frameworks */,
+				5551120525FE0AC00016B328 /* Resources */,
+				485186F389BB00D7D3289B2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -119,25 +113,25 @@
 			);
 			name = Eventish;
 			productName = Eventish;
-			productReference = 55E92AF925FD606100EBDEF2 /* Eventish.app */;
+			productReference = 5551120725FE0AC00016B328 /* Eventish.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		55E92AF125FD606100EBDEF2 /* Project object */ = {
+		555111FF25FE0AC00016B328 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = isd;
 				TargetAttributes = {
-					55E92AF825FD606100EBDEF2 = {
+					5551120625FE0AC00016B328 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 55E92AF425FD606100EBDEF2 /* Build configuration list for PBXProject "Eventish" */;
+			buildConfigurationList = 5551120225FE0AC00016B328 /* Build configuration list for PBXProject "Eventish" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,31 +139,32 @@
 				en,
 				Base,
 			);
-			mainGroup = 55E92AF025FD606100EBDEF2;
-			productRefGroup = 55E92AFA25FD606100EBDEF2 /* Products */;
+			mainGroup = 555111FE25FE0AC00016B328;
+			productRefGroup = 5551120825FE0AC00016B328 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55E92AF825FD606100EBDEF2 /* Eventish */,
+				5551120625FE0AC00016B328 /* Eventish */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		55E92AF725FD606100EBDEF2 /* Resources */ = {
+		5551120525FE0AC00016B328 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E92B0925FD606300EBDEF2 /* LaunchScreen.storyboard in Resources */,
-				55E92B0625FD606300EBDEF2 /* Preview Assets.xcassets in Resources */,
-				55E92B0325FD606300EBDEF2 /* Assets.xcassets in Resources */,
+				5551121725FE0AC20016B328 /* LaunchScreen.storyboard in Resources */,
+				5551121F25FE0CA70016B328 /* GoogleService-Info.plist in Resources */,
+				5551121425FE0AC20016B328 /* Assets.xcassets in Resources */,
+				5551121225FE0AC00016B328 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4B535A46FAB920BA9DD1C42E /* [CP] Embed Pods Frameworks */ = {
+		485186F389BB00D7D3289B2F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,7 +181,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eventish/Pods-Eventish-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		73E48A7435A374A4B790759E /* [CP] Check Pods Manifest.lock */ = {
+		F85400D921D6C337CF401E6F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,23 +206,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55E92AF525FD606100EBDEF2 /* Sources */ = {
+		5551120325FE0AC00016B328 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E92AFD25FD606100EBDEF2 /* AppDelegate.swift in Sources */,
-				55E92AFF25FD606100EBDEF2 /* SceneDelegate.swift in Sources */,
-				55E92B0125FD606100EBDEF2 /* ContentView.swift in Sources */,
+				5551120F25FE0AC00016B328 /* ViewController.swift in Sources */,
+				5551120B25FE0AC00016B328 /* AppDelegate.swift in Sources */,
+				5551120D25FE0AC00016B328 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		55E92B0725FD606300EBDEF2 /* LaunchScreen.storyboard */ = {
+		5551121025FE0AC00016B328 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				55E92B0825FD606300EBDEF2 /* Base */,
+				5551121125FE0AC00016B328 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5551121525FE0AC20016B328 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5551121625FE0AC20016B328 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -235,7 +238,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		55E92B0B25FD606300EBDEF2 /* Debug */ = {
+		5551121925FE0AC20016B328 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		55E92B0C25FD606300EBDEF2 /* Release */ = {
+		5551121A25FE0AC20016B328 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,15 +352,13 @@
 			};
 			name = Release;
 		};
-		55E92B0E25FD606300EBDEF2 /* Debug */ = {
+		5551121C25FE0AC20016B328 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B3B0417491B4F719438884C /* Pods-Eventish.debug.xcconfig */;
+			baseConfigurationReference = 42E45FAA51E6CCDD8757EC89 /* Pods-Eventish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Eventish/Preview Content\"";
 				DEVELOPMENT_TEAM = T32M4XNXW5;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Eventish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,19 +367,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.florianperhati1.Eventish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		55E92B0F25FD606300EBDEF2 /* Release */ = {
+		5551121D25FE0AC20016B328 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 793102E0D4C09823E358977A /* Pods-Eventish.release.xcconfig */;
+			baseConfigurationReference = 0A8C26A655C7B175B1DC4D43 /* Pods-Eventish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Eventish/Preview Content\"";
 				DEVELOPMENT_TEAM = T32M4XNXW5;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Eventish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,32 +386,32 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.florianperhati1.Eventish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55E92AF425FD606100EBDEF2 /* Build configuration list for PBXProject "Eventish" */ = {
+		5551120225FE0AC00016B328 /* Build configuration list for PBXProject "Eventish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55E92B0B25FD606300EBDEF2 /* Debug */,
-				55E92B0C25FD606300EBDEF2 /* Release */,
+				5551121925FE0AC20016B328 /* Debug */,
+				5551121A25FE0AC20016B328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55E92B0D25FD606300EBDEF2 /* Build configuration list for PBXNativeTarget "Eventish" */ = {
+		5551121B25FE0AC20016B328 /* Build configuration list for PBXNativeTarget "Eventish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55E92B0E25FD606300EBDEF2 /* Debug */,
-				55E92B0F25FD606300EBDEF2 /* Release */,
+				5551121C25FE0AC20016B328 /* Debug */,
+				5551121D25FE0AC20016B328 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 55E92AF125FD606100EBDEF2 /* Project object */;
+	rootObject = 555111FF25FE0AC00016B328 /* Project object */;
 }

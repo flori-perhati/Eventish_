@@ -2,23 +2,19 @@
 //  AppDelegate.swift
 //  Eventish
 //
-//  Created by 1sd on 3/13/21.
+//  Created by 1sd on 3/14/21.
 //  Copyright © 2021 isd. All rights reserved.
 //
 
 import UIKit
-import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        FirebaseApp.configure()
-        
         return true
     }
 
