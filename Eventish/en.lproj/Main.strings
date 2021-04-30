@@ -1,0 +1,129 @@
+/*
+    Main.strings
+    Eventish
+ */
+
+// screen titles
+"events" = "Events"
+"events" = "Events"
+"edit_profile" = "Edit Profile"
+"event_preview" = "Event Preview"
+"edit_event" = "Edit Event"
+"map" = "Map"
+"chat" = "Chat"
+"event_participants" = "Event Participants"
+"comments" = "Comments"
+
+// capital letters
+"capital_your_email" = "YOUR EMAIL"
+"capital_enter_password" = "ENTER PASSWORD"
+"capital_confirm_password" = "CONFIRM PASSWORD"
+
+// sign in & sing up
+"ready" = "Ready?"
+"register" = "Register"
+"sign_in" = "Sign In"
+"sign_up" = "Sign Up"
+
+// sign in & sign up errors
+"email_is_not_valid" = "Email is not valid!"
+"email_already_exists" = "Email already exists!"
+"user_could_not_be_found" = "User could not be found!"
+"password_does_not_match" = "Password does not match!"
+"password_is_not_valid" = "Password must contain at least 8 charachters!"
+
+// new event
+"title" = "Title"
+"time" = "Time"
+"holding_date" = "Holding Date"
+"address" = "Address"
+"category" = "Category"
+"description" = "Description"
+"media" = "Media"
+
+// new event errors
+"title_warning" = "Please provide a meaningful title!"
+"holding_date_should_not_be_empty" = "Holding date should not be empty!"
+"time_should_not_be_empty" = "Time should not be empty!"
+"address_should_not_be_empty" = "Address should not be empty!"
+"event_images_warning" = "Please provide at least one image!"
+
+// profile & edit
+"going_to" = "Going To"
+"change_profile_photo" = "Change Profile Photo"
+"name" = "Name"
+"profession" = "Profession"
+"private_information" = "Private Information"
+"email" = "Email"
+"phone" = "Phone"
+"gender" = "Gender"
+
+// alert
+"error" = "Error"
+"are_you_sure" = "Are you sure?"
+"provide_an_address" = "Provide an address"
+"something_went_wrong" = "Something went wrong!"
+"you_will_be_signed_out_from_the_app" = "You will be signed out from the app."
+"your_images_will_be_discarded" = "Your images will be discarded."
+"provide_address_message" = "You can provide an adress by yourself, or you can provide a location from maps."
+"no" = "No"
+"yes" = "Yes"
+"cancel" = "Cancel"
+"save" = "Save"
+"map_location" = "Map Location"
+
+// menu
+"home" = "Home"
+"new_event" = "New Event"
+"notification" = "Notification"
+"notification_settings" = "Notification Settings"
+"profile" = "Profile"
+"sign_out" = "Sign Out"
+"chat_rooms" = "Chats"
+"edit" = "Edit"
+"search" = "Search"
+"refresh" = "Refresh"
+"chat_box" = "Chat Box"
+
+// warnings
+"no_events_to_display" = "There are no eventsto display!\nYou can create an event from your account."
+"no_events_of_you" = "There are no events of you!"
+"no_events_of_this_user" = "No events to display!"
+"event_message" = "Your shared events will appear to your profile, and also will be visible to other users."
+"chat_message" = "There are no chats to display1\nYou can only have a conversation with followers of the same activity you follow."
+"no_notification_receieved" = "You have not received any notification."
+"something_went_wrong_please_try_again" = "Something went wrong, please try again!"
+"location_permission_denied" = "No permission to access phone location!"
+"location_has_no_coordinates" = "Location has no coordinates!"
+
+// actions
+"add_your_first_event" = "Add your first event"
+"title_activity_settings" = "SettingsActivity"
+
+// preference titles
+"messages_header" = "Messages"
+"sync_header" = "Sync"
+
+// messages preferences
+"signature_title" = "Your signature"
+"reply_title" = "Default reply action"
+
+// sync preferences
+"sync_title" = "Sync email periodically"
+"attachment_title" = "Download incoming attachments"
+"attachment_summary_on" = "Automatically download attachments for incoming emails"
+"attachment_summary_off" = "Only download attachments when manually requested"
+
+"default_notification_channel_id" = "fcm_default_channel"
+"fcm_message" = "FCM Message"
+"suggested_duration" = "Suggested duration:"
+"duration" = "Duration"
+"enter_address" = "Enter address"
+
+
+
+
+
+
+
+

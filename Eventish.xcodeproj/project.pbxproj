@@ -29,6 +29,9 @@
 		5551121625FE0AC20016B328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5551121825FE0AC20016B328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5551121E25FE0CA70016B328 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5551122125FFF98D0016B328 /* sq-AL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sq-AL"; path = "sq-AL.lproj/Main.strings"; sourceTree = "<group>"; };
+		5551122225FFF98E0016B328 /* sq-AL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sq-AL"; path = "sq-AL.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5551122425FFFC7C0016B328 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		C3A6732A6E6AD9B6B5815CB6 /* Pods_Eventish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eventish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +76,7 @@
 		5551120925FE0AC00016B328 /* Eventish */ = {
 			isa = PBXGroup;
 			children = (
+				5551122025FE72270016B328 /* utility */,
 				5551121E25FE0CA70016B328 /* GoogleService-Info.plist */,
 				5551120A25FE0AC00016B328 /* AppDelegate.swift */,
 				5551120C25FE0AC00016B328 /* SceneDelegate.swift */,
@@ -83,6 +87,13 @@
 				5551121825FE0AC20016B328 /* Info.plist */,
 			);
 			path = Eventish;
+			sourceTree = "<group>";
+		};
+		5551122025FE72270016B328 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utility;
 			sourceTree = "<group>";
 		};
 		F9F2E3CCDF6D094225A25EF2 /* Pods */ = {
@@ -138,6 +149,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"sq-AL",
 			);
 			mainGroup = 555111FE25FE0AC00016B328;
 			productRefGroup = 5551120825FE0AC00016B328 /* Products */;
@@ -223,6 +235,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				5551121125FE0AC00016B328 /* Base */,
+				5551122125FFF98D0016B328 /* sq-AL */,
+				5551122425FFFC7C0016B328 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -231,6 +245,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5551121625FE0AC20016B328 /* Base */,
+				5551122225FFF98E0016B328 /* sq-AL */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -242,6 +257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -302,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
